@@ -1,0 +1,186 @@
+    .colors:checked {
+        color: red;
+        background: red;
+    }
+
+    #product .radio-type-button .option-content-box :hover {
+        background: #ff5e00;
+        border-color: #ff5e00;
+        color: white;
+        padding: 5px;
+    }
+
+    .checkbox-alphanumeric input:checked~label {
+        transform: scale(1.1);
+        border: 1px solid red;
+    }
+
+    /* Rounded sliders */
+    .toggle-switch-slider.round {
+        border-radius: 34px;
+    }
+
+    .toggle-switch-slider.round:before {
+        border-radius: 50%;
+    }
+
+    .checkbox-alphanumeric::after,
+    .checkbox-alphanumeric::before {
+        content: '';
+        display: table;
+    }
+
+    .checkbox-alphanumeric::after {
+        clear: both;
+    }
+
+    .checkbox-alphanumeric input {
+        left: -9999px;
+        position: absolute;
+    }
+
+    .checkbox-alphanumeric label {
+        width: 2.25rem;
+        height: 2.25rem;
+        float: left;
+        padding: 0.375rem 0;
+        margin-right: 0.375rem;
+        display: block;
+        color: #818a91;
+        font-size: 0.875rem;
+        font-weight: 400;
+        text-align: center;
+        background: transparent;
+        text-transform: uppercase;
+        border: 1px solid #e6e6e6;
+        border-radius: 2px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        transform: scale(0.95);
+    }
+
+    .checkbox-alphanumeric-circle label {
+        border-radius: 100%;
+    }
+
+    .checkbox-alphanumeric label>img {
+        max-width: 100%;
+    }
+
+    .checkbox-alphanumeric label:hover {
+        cursor: pointer;
+        border-color: #8193ff;
+    }
+
+    .checkbox-alphanumeric input:checked~label {
+        transform: scale(1.1);
+    }
+
+    .checkbox-alphanumeric--style-1 label {
+        width: auto;
+        height: auto;
+        text-align: center;
+        line-height: 16px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 2px;
+    }
+
+    .d-table.checkbox-alphanumeric--style-1 {
+        width: 100%;
+    }
+
+    .d-table.checkbox-alphanumeric--style-1 label {
+        width: 100%;
+    }
+
+    /* CUSTOM COLOR INPUT */
+    .checkbox-color::after,
+    .checkbox-color::before {
+        content: '';
+        display: table;
+    }
+
+    .checkbox-color::after {
+        clear: both;
+    }
+
+    .checkbox-color input {
+        left: -9999px;
+        position: absolute;
+    }
+
+    .checkbox-color label {
+        /* width: 2.25rem;
+  height: 2.25rem; */
+        width: 25px;
+        height: 25px;
+        float: left;
+        padding: 0.375rem;
+        margin-right: 0.375rem;
+        display: block;
+        font-size: 0.875rem;
+        text-align: center;
+        opacity: 0.7;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        transform: scale(0.95);
+    }
+
+    .checkbox-color-circle label {
+        border-radius: 100%;
+    }
+
+    .checkbox-color label:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .checkbox-color input:checked~label {
+        transform: scale(1.1);
+        opacity: 1;
+        position: relative;
+    }
+
+    .checkbox-color input:checked~label:after {
+        content: "\f00c";
+        font-family: "FontAwesome";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+    }
+
+    .list-inline checkbox-alphanumeric li {
+        display: inline-block;
+    }
+
+    ul.list-inline.checkbox-color.mb-1 li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    ul.list-inline.checkbox-alphanumeric.checkbox-alphanumeric--style-1.mb-2 li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    ul.list-inline.checkbox-alphanumeric.checkbox-alphanumeric--style-1.mb-2 {
+        position: relative;
+        left: -27px;
+    }
+
+    ul.list-inline.checkbox-color.mb-1 {
+        position: relative;
+        left: -10px;
+    }
